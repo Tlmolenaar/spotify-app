@@ -12,9 +12,11 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var search_component_1 = require('./components/search/search.component');
 var about_component_1 = require('./components/about/about.component');
+var artist_component_1 = require('./components/artist/artist.component');
 var routes = [
     { path: '', component: search_component_1.SearchComponent },
-    { path: 'about', component: about_component_1.AboutComponent }
+    { path: 'about', component: about_component_1.AboutComponent },
+    { path: 'artist/:id', component: artist_component_1.ArtistComponent }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {

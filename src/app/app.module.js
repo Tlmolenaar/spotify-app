@@ -17,6 +17,7 @@ var app_component_1 = require('./app.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var about_component_1 = require('./components/about/about.component');
 var search_component_1 = require('./components/search/search.component');
+var artist_component_1 = require('./components/artist/artist.component');
 var spotify_service_1 = require('./services/spotify.service');
 var AppModule = (function () {
     function AppModule() {
@@ -24,7 +25,7 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, app_router_1.AppRoutingModule, forms_1.FormsModule, http_1.HttpModule],
-            declarations: [app_component_1.AppComponent, navbar_component_1.NavbarComponent, about_component_1.AboutComponent, search_component_1.SearchComponent],
+            declarations: [app_component_1.AppComponent, navbar_component_1.NavbarComponent, about_component_1.AboutComponent, search_component_1.SearchComponent, artist_component_1.ArtistComponent],
             providers: [spotify_service_1.SpotifyService],
             bootstrap: [app_component_1.AppComponent]
         }), 
